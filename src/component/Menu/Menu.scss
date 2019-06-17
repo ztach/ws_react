@@ -1,0 +1,52 @@
+div.app {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 99%;
+    margin:0 auto;
+    background-color: rgb(246, 245, 245);
+  }
+
+  .header{ 
+    display: flex;
+    flex-basis: 2vh;
+    background-color: rgb(61, 61, 61);
+  }
+  
+  
+  .head{
+    flex-grow: 1;
+    background-color: rgb(90, 240, 240);
+    padding:10px;
+  }
+
+  .nav{
+    flex-grow: 1;
+  }
+  
+  
+  
+
+
+
+  main{
+    display: flex;
+    flex-grow: 1;
+    
+    color:black;
+    padding: 10px 0;
+  
+  }
+  
+  
+  section{
+    flex-grow: 1;
+    background-color: rgb(252, 245, 237);
+  }
+  
+  footer{
+    background-color:slategray ;
+    color:yellow;
+    padding:20px;
+  }
+  

@@ -1,0 +1,53 @@
+.wrap {
+    display: block;
+    font-size: 20px;
+    width: 300px;
+}
+
+.headerClas {
+    color:rgb(248, 233, 25);
+    background-color: rgb(58, 50, 50);
+}
+
+.custom-row-class{
+    background-color: rgb(245, 234, 234);
+    text-align: center;
+}
+
+.boo{
+    display: block;
+    margin:10px 0px 0 10px;
+    color:black;
+    margin: 10px;
+}
+
+.foo {
+    width: 340px;
+}
+
+.row-expand{
+    font-size: 18px;
+    color:blue;
+}
+
+.row-expand:hover{
+    font-size: 18px;
+    color:green;
+}
+
+.wybrane {
+    display: block;
+    margin-left: 10%;
+}
+.wybrane li{
+    list-style-image: url(../../images/treehouse-marker.png);
+}
+
+.wybrane h4{
+    margin: 5px 0 5px 20%;
+}
+
+.wybrane span {
+    margin-left: 5%;
+    margin-right: 5%;
+}

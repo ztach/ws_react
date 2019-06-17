@@ -1,0 +1,13 @@
+{
+    "temat":"zgadywanka",
+    "slownik": [
+        {
+            "id":1,
+            "slowo":"jabłko",
+            "typ":"owoc",
+            "pt":1
+        }
+    ]
+}
+
+

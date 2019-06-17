@@ -1,0 +1,25 @@
+.HomePageWrapper{
+    display: block;
+    height: 100%;
+    width: 100%;
+    
+}
+
+.HomePageWrapper article {
+    display: block;
+    width: 70%;
+    background-color:rgb(160, 207, 209);
+    padding: 20px;
+    margin: 0 auto;
+    
+}
+
+.HomePageWrapper h1{
+    padding: 30px;
+    font-size: 24px;
+}
+
+.HomePageWrapper p{
+    padding: 30px;
+    font-size: 18px;
+}

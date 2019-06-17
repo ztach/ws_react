@@ -1,0 +1,72 @@
+.navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: rgb(61, 61, 61);
+    font-size: 16px;
+  }
+  
+  
+  .navul{
+    list-style: none;
+    }
+  
+  .navli{
+    display: inline;
+  }
+  
+  .navigation a{
+    display:inline-flex;
+    flex-grow: 1;
+    text-align: center;
+    color:white;
+    padding: 0px 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 0 auto;
+    padding: 5px;
+    width: 120px;  
+    border-bottom: 10px solid rgb(61, 61, 61);
+  }
+
+  .navigation a:hover{
+    color:yellow;
+    animation: App-logo-spin infinite 1s linear;
+    border-bottom: 10px solid rgb(141, 140, 140);
+  }
+  
+  
+  .active{
+    
+  }
+
+  .navigation .info_selected{
+    border-bottom-color: yellow;
+  }
+  
+  .navigation .gra_selected{
+    border-bottom-color:coral;
+  }
+  
+  .navigation .ustawienia_selected{
+    border-bottom-color: red;
+  
+  }
+  
+  .navigation .contact_selected {
+    border-bottom-color: green;
+  }
+
+  .navigation .admin_selected {
+    border-bottom-color: blue;
+  }
+
+  @keyframes App-logo-spin {
+    from {
+      transform: translateY(0);
+    }
+    to {
+      transform: translateY(5px);
+    }
+  }
+  
